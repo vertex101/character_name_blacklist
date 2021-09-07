@@ -17,5 +17,5 @@ jobs:
         uses: exions/merge-upstream@v1
         with:
           upstream: The-Forbidden-Trove/character_name_blacklist      # set the upstream repo
-          upstream-branch: master   # set the upstream branch to merge from
-          branch: master          # set the branch to merge to
+          upstream-branch: main   # set the upstream branch to merge from
+          branch: main          # set the branch to merge to
