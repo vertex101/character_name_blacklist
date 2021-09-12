@@ -13,7 +13,7 @@ jobs:
         with:
           ref: main             # set the branch to merge to
           fetch-depth: 0 
-      - name: Merge Upstream
+      - name: Merge Main
         uses: exions/merge-upstream@v1
         with:
           upstream: The-Forbidden-Trove/character_name_blacklist      # set the upstream repo
